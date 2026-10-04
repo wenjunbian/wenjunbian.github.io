@@ -1,7 +1,7 @@
 {
   "format": "cv-board-website",
   "schemaVersion": 1,
-  "sourceRevision": 152,
+  "sourceRevision": 176,
   "profile": {
     "fullName": "WENJUN BIAN",
     "websiteName": "Wenjun Bian",
@@ -181,6 +181,7 @@
           "authors": "Bian, W.",
           "year": "2026",
           "status": "Data Collection",
+          "targetJournal": "Personnel Psychology",
           "links": [],
           "relatedIds": []
         },
@@ -191,6 +192,7 @@
           "authors": "Liu, C. & Bian, W.*",
           "year": "2026",
           "status": "Finalizing Manuscript",
+          "targetJournal": "Journal of Managerial Psychology",
           "links": [],
           "relatedIds": []
         },
@@ -211,6 +213,7 @@
           "featured": false,
           "authors": "Guan, O., Fang, M., Bian, W., Zhang, M., & Liu, H.",
           "status": "Preparing for Submission",
+          "targetJournal": "Journal of Applied Psychology",
           "links": [],
           "relatedIds": []
         },
@@ -238,9 +241,7 @@
           "year": "2026",
           "venue": "The 86th Annual Meeting of the Academy of Management (AOM)",
           "links": [],
-          "relatedIds": [
-            "hist-20261004-pdw-jap"
-          ]
+          "relatedIds": []
         },
         {
           "id": "ad8ad6b1-4204-43b5-a904-4fec7b6e2467",
@@ -259,7 +260,12 @@
           "authors": "Bian, W., Deng, Y., Ruan, J., & Liu, Z.",
           "year": "2025",
           "venue": "The 85th Annual Meeting of the Academy of Management (AOM)",
-          "links": [],
+          "links": [
+            {
+              "label": "Link",
+              "url": "https://journals.aom.org/doi/abs/10.5465/AMPROC.2025.468bp"
+            }
+          ],
           "relatedIds": []
         },
         {
@@ -270,9 +276,7 @@
           "year": "2025",
           "venue": "The 85th Annual Meeting of the Academy of Management (AOM)",
           "links": [],
-          "relatedIds": [
-            "hist-20261004-pdw-amj"
-          ]
+          "relatedIds": []
         },
         {
           "id": "49a017fd-114d-4fe9-a69b-28cb89dea3f6",
@@ -300,18 +304,6 @@
           "relatedIds": []
         },
         {
-          "id": "hist-20261004-pdw-jap",
-          "title": "How Remote Work Reshapes Gender Pay Disparities",
-          "featured": false,
-          "authors": "Bian, W.",
-          "year": "2025",
-          "venue": "JAP Paper Development Workshop",
-          "links": [],
-          "relatedIds": [
-            "d5a2e8c7-ba3e-4b0f-8abc-009664040495"
-          ]
-        },
-        {
           "id": "conf-2",
           "title": "Positive Parenting Practices Shape Adolescent Leader Emergence",
           "featured": false,
@@ -330,18 +322,6 @@
           "venue": "13th Asia Academy of Management Conference (AAOM)",
           "links": [],
           "relatedIds": []
-        },
-        {
-          "id": "hist-20261004-pdw-amj",
-          "title": "From Spark to Flame: Interpersonal Capitalization Climate Facilitating Transformation of Personal Life Experiences Into Workplace Creativity",
-          "featured": false,
-          "authors": "Bian, W.",
-          "year": "2024",
-          "venue": "AMJ Paper Development Workshop",
-          "links": [],
-          "relatedIds": [
-            "024b9a68-3325-4f28-9e3d-643361eccb9d"
-          ]
         }
       ]
     },
@@ -349,17 +329,6 @@
       "id": "awards",
       "title": "Awards & Honors",
       "entries": [
-        {
-          "id": "73720325-8cd9-4de6-9460-82c3cb7a0c57",
-          "title": "Outstanding Undergraduate",
-          "featured": false,
-          "date": "2026",
-          "subtitle": "Zhejiang University",
-          "institutionShort": "ZJU",
-          "institutionUrl": "https://www.zju.edu.cn/english/",
-          "links": [],
-          "relatedIds": []
-        },
         {
           "id": "award-1",
           "title": "OB Pre-Doctoral Scholarship for the 85th Annual Meeting of AOM",
@@ -378,7 +347,7 @@
         },
         {
           "id": "hist-20261004-zju-unverified",
-          "title": "Outstanding Graduate in Zhejiang University",
+          "title": "Outstanding Graduate",
           "featured": false,
           "date": "2024",
           "subtitle": "Zhejiang University",
@@ -400,7 +369,7 @@
         },
         {
           "id": "hist-20261004-firstclass",
-          "title": "First-Class Scholarship",
+          "title": "First-Class Scholarship (three times)",
           "featured": false,
           "date": "2020–2023",
           "subtitle": "Nanjing University of Chinese Medicine",
@@ -412,14 +381,6 @@
         {
           "id": "award-3",
           "title": "Undergraduate National Scholarship",
-          "featured": false,
-          "date": "2022",
-          "links": [],
-          "relatedIds": []
-        },
-        {
-          "id": "award-4",
-          "title": "National-Level Innovation and Entrepreneurship Training Scholarship",
           "featured": false,
           "date": "2022",
           "links": [],
@@ -444,49 +405,26 @@
           "institutionUrl": "https://www.njucm.edu.cn/",
           "links": [],
           "relatedIds": []
-        },
+        }
+      ]
+    },
+    {
+      "id": "reviewing",
+      "title": "Editorial & Reviewing Service",
+      "entries": [
         {
-          "id": "hist-20261004-challenge-cup",
-          "title": "Third Prize, 17Th Jiangsu Province Challenge Cup Competition",
+          "id": "4ca8f684-bce1-419e-b619-16da09cbd904",
+          "title": "International journal of hospitality management",
           "featured": false,
-          "date": "2021",
+          "date": "2025",
           "links": [],
           "relatedIds": []
         },
         {
-          "id": "hist-20261004-zhu",
-          "title": "Zhu Jingwen Scholarship",
+          "id": "40fc80cf-702a-490a-a65d-4f9232d2ce23",
+          "title": "Leadership & organization development journal",
           "featured": false,
-          "date": "2020",
-          "subtitle": "Nanjing University of Chinese Medicine",
-          "institutionShort": "NJUCM",
-          "institutionUrl": "https://www.njucm.edu.cn/",
-          "links": [],
-          "relatedIds": []
-        },
-        {
-          "id": "hist-20261004-english-contest",
-          "title": "Third Prize, National College English Contest",
-          "featured": false,
-          "date": "2020",
-          "links": [],
-          "relatedIds": []
-        },
-        {
-          "id": "hist-20261004-jiangsu-volunteer",
-          "title": "Outstanding College Student Volunteer in Jiangsu Province",
-          "featured": false,
-          "subtitle": "Jiangsu Province",
-          "links": [],
-          "relatedIds": []
-        },
-        {
-          "id": "hist-20261004-topten-volunteer",
-          "title": "Top Ten Volunteers",
-          "featured": false,
-          "subtitle": "Nanjing University of Chinese Medicine",
-          "institutionShort": "NJUCM",
-          "institutionUrl": "https://www.njucm.edu.cn/",
+          "date": "2024",
           "links": [],
           "relatedIds": []
         }
