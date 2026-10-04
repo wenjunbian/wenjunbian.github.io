@@ -1,7 +1,7 @@
 {
   "format": "cv-board-website",
   "schemaVersion": 1,
-  "sourceRevision": 195,
+  "sourceRevision": 197,
   "profile": {
     "fullName": "WENJUN BIAN",
     "websiteName": "Wenjun Bian",
@@ -331,6 +331,17 @@
           "relatedIds": []
         },
         {
+          "id": "c56f3f80-ce73-41f7-b70e-3d2e5900a125",
+          "title": "First-Class Scholarship",
+          "featured": false,
+          "date": "2020–2023",
+          "subtitle": "Zhejiang University",
+          "institutionShort": "NJUCM",
+          "institutionUrl": "https://www.njucm.edu.cn/",
+          "links": [],
+          "relatedIds": []
+        },
+        {
           "id": "award-2",
           "title": "Graduate National Scholarship",
           "featured": false,
@@ -398,6 +409,14 @@
           "subtitle": "Nanjing University of Chinese Medicine",
           "institutionShort": "NJUCM",
           "institutionUrl": "https://www.njucm.edu.cn/",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "hist-20261004-jiangsu-volunteer",
+          "title": "Outstanding College Student Volunteer in Jiangsu Province",
+          "featured": false,
+          "subtitle": "Jiangsu Province",
           "links": [],
           "relatedIds": []
         }
