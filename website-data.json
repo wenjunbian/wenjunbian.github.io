@@ -1,14 +1,14 @@
 {
   "format": "cv-board-website",
   "schemaVersion": 1,
-  "sourceRevision": 148,
+  "sourceRevision": 152,
   "profile": {
     "fullName": "WENJUN BIAN",
     "websiteName": "Wenjun Bian",
     "websiteRole": "PhD Student · Organizational Behavior",
     "affiliation": "[Department of Management and Marketing](https://www.polyu.edu.hk/mm/) · Faculty of Business\n[The Hong Kong Polytechnic University](https://www.polyu.edu.hk/)",
     "motto": "🌊 Don't settle.",
-    "longBio": "I am a PhD student in Management, specializing in Organizational Behavior, at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/). \nMy research asks how experiences within and beyond work shape well-being, engagement, and leadership. My work spans recovery activities and work engagement, parenting and leadership development, social perceptions of leaders, career growth, and responses to stress. I approach these questions through evidence synthesis, field research, and quantitative analysis.\nBeyond my own research, I founded [BWJ OB Pluto](https://mp.weixin.qq.com/s/BjEi-r94QIzPFTiwJjfrXA), an academic column that shares organizational behavior research and reflections on academic life. I value making research accessible and building a community in which researchers can learn from one another.",
+    "longBio": "I am a PhD student in Organizational Behavior at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/). \nMy research asks how experiences within and beyond work shape well-being, engagement, and leadership. My work spans recovery activities and work engagement, parenting and leadership development, social perceptions of leaders, career growth, and responses to stress. I approach these questions through evidence synthesis, field research, and quantitative analysis.\nBeyond my own research, I founded [BWJ OB Pluto](https://mp.weixin.qq.com/s/BjEi-r94QIzPFTiwJjfrXA), an academic column that shares organizational behavior research and reflections on academic life. I value making research accessible and building a community in which researchers can learn from one another.",
     "interestDetails": "Recovery & Well-being | How do activities outside work relate to recovery and engagement at work? My ongoing work uses theoretical synthesis and meta-analysis to examine these connections. [Related working paper](#record-work-1)\nLeadership & Life Experiences | How do family experiences and parenting practices relate to leadership? My published work examines benevolent leadership and adolescent leader emergence. [Parenting and leadership](#record-pub-3)\nSocial Perception & Career Development | How do perceptions of leaders and leader–employee relationships shape leadership emergence and career growth? This line connects work on perceived cuteness, career calling, and career crafting. [Career calling study](#record-77d1b65e-a9c1-4a08-9bad-7698bf7a6a0a)\nResearch Methods & Evidence Synthesis | I am interested in bringing together systematic reviews, meta-analysis, longitudinal data, and computational approaches to understand psychological and organizational processes. [Machine-learning study](#record-pub-4)",
     "chineseName": "卞文君",
     "email": "wenjun.bian@connect.polyu.hk",
@@ -174,6 +174,16 @@
       "id": "working",
       "title": "Working Papers",
       "entries": [
+        {
+          "id": "e1f3718d-f4dd-4863-92d5-e731e0207fbe",
+          "title": "Recovery and Agency",
+          "featured": false,
+          "authors": "Bian, W.",
+          "year": "2026",
+          "status": "Data Collection",
+          "links": [],
+          "relatedIds": []
+        },
         {
           "id": "3bd37cc8-c3b5-41ad-b6f8-72c365cecdeb",
           "title": "Not My Job, but My Future? Illegitimate Tasks, Organizational Politics, and Employee Voice",

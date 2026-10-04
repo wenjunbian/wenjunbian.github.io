@@ -1,7 +1,7 @@
 {
-  "jobId": "d66fb23d1efce35973faded4",
-  "fingerprint": "cd7b7413e61250a6c61ad2c872bd88e49bc8c8be1f71bc6f29ee837725edaa9b",
-  "sourceRevision": 148,
+  "jobId": "9a72aebba7d1f076149b0ebc",
+  "fingerprint": "b3dd1093d78f3cd66f7f666031a484a8a8d160cfdf1bbd56e0e3b84bf82a5029",
+  "sourceRevision": 152,
   "files": [
     ".nojekyll",
     "THIRD-PARTY-NOTICES.txt",
@@ -16,16 +16,19 @@
     "website-data.json"
   ],
   "hashes": {
-    "index.html": "6838256c727e531277265c1217aa67e9ee575c23ea641381891cd8cbb6b4fc4f",
+    "index.html": "5efe9101c1e4a9d5d6f03e93ec0b380765217c15a3f9a61aaa1fedad9e3ee83b",
     "publications.html": "8f6e6e1dfae30ab5407c8cbacb3fe664ef0bde911c7b6f33a00e9d7d43b6adf3",
-    "ongoing-papers.html": "8a8ace64262cf4706565ae6fb7dcc67b8fb9bb842268cd7379a2045b6877fad5",
+    "ongoing-papers.html": "c4b97b0a7f7dc3f9809bc0eb53d96c6d1c43cf3e430f37d6c9742fcc6b4110f2",
     "conferences.html": "d55b27bb5e7109d1d7bac6f93dde749fa0345b105bb875c457d92477e6215ba0",
     "awards.html": "aa06e887b932e3cfd911f25ce315e525d7e26121d9f3ae98e727805685ff07ef",
     "assets/site.css": "4cba32455ae9acab0710f750c375f40bb01a8d4048e0a75726731f385ad68e56",
     "assets/site.js": "90b105436fde4a84d21316f3fc3b1f6f35d7f792d28294e8b8bc4068e33b88f2",
-    "assets/cv.pdf": "3ae19ec1248e784648dc137efbc793f7640cb78b1c3e5c934854a52dafda5e30",
-    "website-data.json": "e3137bb8c4b396acf12d203a3d115b47fab16d75794bf0d4fcd83d785d81fe7e",
+    "assets/cv.pdf": "c3925340334aaa2060ef9761748c58347d5332c1f1a147cc792d46f5c70e9d01",
+    "website-data.json": "720e4c29b84a841bb15edf921b8a2c2e39654774352124af83f9abde1cd8ecc8",
     "THIRD-PARTY-NOTICES.txt": "95f0f2f13e7780f16d4f1179dfab23199eeeed7da9489425a9dbe08e28b8c474",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-  }
+  },
+  "cvSource": "cv-board",
+  "cvRevision": 152,
+  "cvSha256": "c3925340334aaa2060ef9761748c58347d5332c1f1a147cc792d46f5c70e9d01"
 }
