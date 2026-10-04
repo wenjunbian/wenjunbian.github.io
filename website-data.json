@@ -1,7 +1,7 @@
 {
   "format": "cv-board-website",
   "schemaVersion": 1,
-  "sourceRevision": 194,
+  "sourceRevision": 195,
   "profile": {
     "fullName": "WENJUN BIAN",
     "websiteName": "Wenjun Bian",
@@ -166,6 +166,17 @@
           "relatedIds": []
         },
         {
+          "id": "8007672f-abb5-400b-8785-548262761147",
+          "title": "The Baby-Face Penalty: How Perceived Cuteness Undermines Leadership Emergence Through Underdog Perception in the Tourism Industry",
+          "featured": false,
+          "authors": "Zong, Z., Xie. Y., Bian, W*., Long, T.",
+          "year": "2025",
+          "status": "Under Review",
+          "reviewVenue": "International Journal of Hospitality Management",
+          "links": [],
+          "relatedIds": []
+        },
+        {
           "id": "a396e28f-5e55-4d3e-97a1-1d42dbffb0a1",
           "title": "Raised in the Storm: Affective Imprinting From Organizational Restructuring During Onboarding and Its Consequences for Employee Adaptation",
           "featured": false,
@@ -195,17 +206,6 @@
           "year": "2026",
           "status": "Data Collection",
           "targetJournal": "Personnel Psychology",
-          "links": [],
-          "relatedIds": []
-        },
-        {
-          "id": "8007672f-abb5-400b-8785-548262761147",
-          "title": "The Baby-Face Penalty: How Perceived Cuteness Undermines Leadership Emergence Through Underdog Perception in the Tourism Industry",
-          "featured": false,
-          "authors": "Zong, Z., Xie. Y., Bian, W*., Long, T.",
-          "year": "2025",
-          "status": "Under Review",
-          "reviewVenue": "International Journal of Hospitality Management",
           "links": [],
           "relatedIds": []
         },

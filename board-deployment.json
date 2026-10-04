@@ -1,7 +1,7 @@
 {
-  "jobId": "42708b308db8fef9935390c3",
-  "fingerprint": "defdca8570f0817471e497902f1cb76aa000814df0ec58141a4701e6d3b5e2e0",
-  "sourceRevision": 194,
+  "jobId": "0e06d99d3271cf0ee6a8fa5b",
+  "fingerprint": "86ec92d88456600092869c710a26407b593324f3729add3cb41372e9d14b09fa",
+  "sourceRevision": 195,
   "files": [
     ".nojekyll",
     "THIRD-PARTY-NOTICES.txt",
@@ -16,19 +16,19 @@
     "website-data.json"
   ],
   "hashes": {
-    "index.html": "f7a9c3efab631484b1a90c30a4343f0f16a1bb6967b3c0e0e59813edd826605e",
+    "index.html": "1a5c216f26e86414d225793de99b10da1ab5ab3869da29b60a37b6b9f3446e77",
     "publications.html": "b216b77fa14129710c4cdb0a1a7c3d4060c6754a57c5c7cb8744a7832ba3c360",
-    "ongoing-papers.html": "c597441601686b8b8df994b79a3faa08e078f5f1e5362b2330576b085b3aaa2d",
+    "ongoing-papers.html": "fd02e85ed90de9223cc47bb36c13f64cd8af8e19b28b5989070e36084ad91584",
     "conferences.html": "9738ef6441c9773194a56b25f5ecfdcd3adb72003092a8d47c1513402e2819b5",
     "awards.html": "f5fce14100c973b20e461062a7ab8b002d8511dfffacc117a5cd3acf3b7e1f92",
     "assets/site.css": "4cba32455ae9acab0710f750c375f40bb01a8d4048e0a75726731f385ad68e56",
     "assets/site.js": "90b105436fde4a84d21316f3fc3b1f6f35d7f792d28294e8b8bc4068e33b88f2",
-    "assets/cv.pdf": "e0797c8786e128d0d88a4fe57a8fbd9eeb3675a85163fa714381ed441bdaa6a1",
-    "website-data.json": "70385e2718854163c50d86c7032113d2170bc98efd67d9f9ccf0ae7e6ef21ff9",
+    "assets/cv.pdf": "973a7de3337a545da3ecc253f22d25be23b857d041809bb142da9151c4d28201",
+    "website-data.json": "e0240d263c3b9cac5c5505c7a0065d872ca9a3595bcca21a9cc9a5fdab33d607",
     "THIRD-PARTY-NOTICES.txt": "95f0f2f13e7780f16d4f1179dfab23199eeeed7da9489425a9dbe08e28b8c474",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   "cvSource": "cv-board",
-  "cvRevision": 194,
-  "cvSha256": "e0797c8786e128d0d88a4fe57a8fbd9eeb3675a85163fa714381ed441bdaa6a1"
+  "cvRevision": 195,
+  "cvSha256": "973a7de3337a545da3ecc253f22d25be23b857d041809bb142da9151c4d28201"
 }
