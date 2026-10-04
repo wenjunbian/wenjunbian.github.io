@@ -1,7 +1,7 @@
 {
   "format": "cv-board-website",
   "schemaVersion": 1,
-  "sourceRevision": 184,
+  "sourceRevision": 194,
   "profile": {
     "fullName": "WENJUN BIAN",
     "websiteName": "Wenjun Bian",
@@ -155,28 +155,6 @@
       "title": "Working Papers",
       "entries": [
         {
-          "id": "e1f3718d-f4dd-4863-92d5-e731e0207fbe",
-          "title": "Recovery and Agency",
-          "featured": false,
-          "authors": "Bian, W.",
-          "year": "2026",
-          "status": "Data Collection",
-          "targetJournal": "Personnel Psychology",
-          "links": [],
-          "relatedIds": []
-        },
-        {
-          "id": "3bd37cc8-c3b5-41ad-b6f8-72c365cecdeb",
-          "title": "Not My Job, but My Future? Illegitimate Tasks, Organizational Politics, and Employee Voice",
-          "featured": false,
-          "authors": "Liu, C. & Bian, W.*",
-          "year": "2026",
-          "status": "Finalizing Manuscript",
-          "targetJournal": "Journal of Managerial Psychology",
-          "links": [],
-          "relatedIds": []
-        },
-        {
           "id": "work-1",
           "title": "Not All Recovery Activities Are Created Equal: A Theoretical Synthesis and Meta-Analysis of Recovery Activities and Work Engagement",
           "featured": false,
@@ -199,6 +177,28 @@
           "relatedIds": []
         },
         {
+          "id": "3bd37cc8-c3b5-41ad-b6f8-72c365cecdeb",
+          "title": "Not My Job, but My Future? Illegitimate Tasks, Organizational Politics, and Employee Voice",
+          "featured": false,
+          "authors": "Liu, C. & Bian, W.*",
+          "year": "2026",
+          "status": "Finalizing Manuscript",
+          "targetJournal": "Journal of Managerial Psychology",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "e1f3718d-f4dd-4863-92d5-e731e0207fbe",
+          "title": "Recovery and Agency",
+          "featured": false,
+          "authors": "Bian, W.",
+          "year": "2026",
+          "status": "Data Collection",
+          "targetJournal": "Personnel Psychology",
+          "links": [],
+          "relatedIds": []
+        },
+        {
           "id": "8007672f-abb5-400b-8785-548262761147",
           "title": "The Baby-Face Penalty: How Perceived Cuteness Undermines Leadership Emergence Through Underdog Perception in the Tourism Industry",
           "featured": false,
@@ -206,6 +206,17 @@
           "year": "2025",
           "status": "Under Review",
           "reviewVenue": "International Journal of Hospitality Management",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "301429d2-3175-4b85-b731-731195cf8f94",
+          "title": "Rude or not rude, that’s a question: Creative role expectations and double-standard in rudeness perceptions",
+          "featured": false,
+          "authors": "Guan, O., Foulk, T., Schaerer, M., & Bian, W.",
+          "year": "2025",
+          "status": "Finalizing Manuscript",
+          "targetJournal": "Organizational Behavior and Human Decision Process",
           "links": [],
           "relatedIds": []
         }
@@ -324,6 +335,7 @@
           "title": "Graduate National Scholarship",
           "featured": false,
           "date": "2024",
+          "subtitle": "Ministry of Education of China",
           "links": [],
           "relatedIds": []
         },
@@ -365,6 +377,7 @@
           "title": "Undergraduate National Scholarship",
           "featured": false,
           "date": "2022",
+          "subtitle": "Ministry of Education of China",
           "links": [],
           "relatedIds": []
         },
