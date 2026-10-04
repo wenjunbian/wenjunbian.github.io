@@ -1,7 +1,7 @@
 {
-  "jobId": "67ffd0db63f73091efb9747b",
-  "fingerprint": "f6c85ddb335ed04e10e7ca49e1771ce4e540d633ea9f5b7c82a5b265c617d6d0",
-  "sourceRevision": 197,
+  "jobId": "72f9a79b775211ed101f3538",
+  "fingerprint": "ed99b12a99c80c40fc702be234edeaf2f21e0606c3c8088aa60a75cb3106b4bd",
+  "sourceRevision": 200,
   "files": [
     ".nojekyll",
     "THIRD-PARTY-NOTICES.txt",
@@ -16,19 +16,19 @@
     "website-data.json"
   ],
   "hashes": {
-    "index.html": "24da587becb7626961eb31d40d68633a9b3e13761a875f19322ff0d9af448f8e",
-    "publications.html": "b216b77fa14129710c4cdb0a1a7c3d4060c6754a57c5c7cb8744a7832ba3c360",
+    "index.html": "798906c8710fdbf00d7be32470ca31d51cd13ce936a140683c86fbe2e6a8767d",
+    "publications.html": "04ea680992de0670396ce88219746e838f072dce9cc97274f666ffcaab34c035",
     "ongoing-papers.html": "fd02e85ed90de9223cc47bb36c13f64cd8af8e19b28b5989070e36084ad91584",
     "conferences.html": "9738ef6441c9773194a56b25f5ecfdcd3adb72003092a8d47c1513402e2819b5",
-    "awards.html": "9f0a9046ed7b6f645920968e61980cc21bdd8dafec6f46c940140bcdeefeb68d",
+    "awards.html": "61a84cfd347f47121bdb99cd58ad4290363483af20e446f9868fcec269b32974",
     "assets/site.css": "4cba32455ae9acab0710f750c375f40bb01a8d4048e0a75726731f385ad68e56",
     "assets/site.js": "90b105436fde4a84d21316f3fc3b1f6f35d7f792d28294e8b8bc4068e33b88f2",
-    "assets/cv.pdf": "825f0dfca05e5164281c3794c6434c961c69fbf30f87b440625b0f17debc0fd8",
-    "website-data.json": "910e196336f638f9b9764853cc6760ab40dc93efbfe06e51d31dfe7fe9c519b0",
+    "assets/cv.pdf": "2682fd9f9fe941aab7c198b049633eafa928f4864e079000e3c0fd71dd9c7e85",
+    "website-data.json": "bf8501c492e4cc8332c718f2cbe10662d6c0ffc3a1b198ec3e8ca869a6acb866",
     "THIRD-PARTY-NOTICES.txt": "95f0f2f13e7780f16d4f1179dfab23199eeeed7da9489425a9dbe08e28b8c474",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   "cvSource": "cv-board",
-  "cvRevision": 197,
-  "cvSha256": "825f0dfca05e5164281c3794c6434c961c69fbf30f87b440625b0f17debc0fd8"
+  "cvRevision": 200,
+  "cvSha256": "2682fd9f9fe941aab7c198b049633eafa928f4864e079000e3c0fd71dd9c7e85"
 }
