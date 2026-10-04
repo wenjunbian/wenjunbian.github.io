@@ -1,7 +1,7 @@
 {
   "format": "cv-board-website",
   "schemaVersion": 1,
-  "sourceRevision": 176,
+  "sourceRevision": 178,
   "profile": {
     "fullName": "WENJUN BIAN",
     "websiteName": "Wenjun Bian",
@@ -20,26 +20,6 @@
   },
   "sections": [
     {
-      "id": "outreach",
-      "title": "Academic Communication & Service",
-      "entries": [
-        {
-          "id": "outreach-1",
-          "title": "Founder, an OB Academic Column",
-          "featured": false,
-          "subtitle": "BWJ OB Pluto",
-          "summary": "Founded BWJ OB Pluto to share organizational behavior research, research notes, and reflections on academic life. The column supports knowledge sharing and learning within the OB research community.",
-          "links": [
-            {
-              "label": "Link",
-              "url": "https://mp.weixin.qq.com/s/BjEi-r94QIzPFTiwJjfrXA"
-            }
-          ],
-          "relatedIds": []
-        }
-      ]
-    },
-    {
       "id": "publications",
       "title": "Selected Publications",
       "entries": [
@@ -48,7 +28,7 @@
           "title": "Being a Parent Helps Being a Benevolent Leader: A Mixed-Method Approach",
           "featured": false,
           "authors": "Liu, Z., Liang, Z., Wang, C., & Bian, W.",
-          "year": "2024",
+          "year": "2025",
           "status": "Published",
           "venue": "Journal of Business Ethics",
           "citationTail": "197(4), 761–784",
