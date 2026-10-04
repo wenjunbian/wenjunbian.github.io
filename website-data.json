@@ -1,7 +1,7 @@
 {
   "format": "cv-board-website",
   "schemaVersion": 1,
-  "sourceRevision": 200,
+  "sourceRevision": 201,
   "profile": {
     "fullName": "WENJUN BIAN",
     "websiteName": "Wenjun Bian",
@@ -252,6 +252,7 @@
           "featured": false,
           "authors": "Bian, W., Deng, Y., Ruan, J., & Liu, Z.",
           "year": "2025",
+          "subtitle": "Best Paper Award (AOM OB Division; top 10% of conference papers)",
           "venue": "The 85th Annual Meeting of the Academy of Management (AOM)",
           "links": [
             {

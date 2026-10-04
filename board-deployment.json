@@ -1,7 +1,7 @@
 {
-  "jobId": "d1773bad0b02f864e945a0ba",
-  "fingerprint": "ed99b12a99c80c40fc702be234edeaf2f21e0606c3c8088aa60a75cb3106b4bd",
-  "sourceRevision": 200,
+  "jobId": "1c6127c195b80ac22ad97822",
+  "fingerprint": "116d56cf9cb1d297d115327c63fc99103a329989e5b4cf1d0f8c39abeb61f2a9",
+  "sourceRevision": 201,
   "files": [
     ".nojekyll",
     "THIRD-PARTY-NOTICES.txt",
@@ -19,16 +19,16 @@
     "index.html": "798906c8710fdbf00d7be32470ca31d51cd13ce936a140683c86fbe2e6a8767d",
     "publications.html": "04ea680992de0670396ce88219746e838f072dce9cc97274f666ffcaab34c035",
     "ongoing-papers.html": "fd02e85ed90de9223cc47bb36c13f64cd8af8e19b28b5989070e36084ad91584",
-    "conferences.html": "9738ef6441c9773194a56b25f5ecfdcd3adb72003092a8d47c1513402e2819b5",
+    "conferences.html": "47c1a0733e70110a1a168fa9e7417c86ab1a8987779f302fdbcf23343235eff4",
     "awards.html": "61a84cfd347f47121bdb99cd58ad4290363483af20e446f9868fcec269b32974",
     "assets/site.css": "4cba32455ae9acab0710f750c375f40bb01a8d4048e0a75726731f385ad68e56",
     "assets/site.js": "90b105436fde4a84d21316f3fc3b1f6f35d7f792d28294e8b8bc4068e33b88f2",
     "assets/cv.pdf": "2682fd9f9fe941aab7c198b049633eafa928f4864e079000e3c0fd71dd9c7e85",
-    "website-data.json": "bf8501c492e4cc8332c718f2cbe10662d6c0ffc3a1b198ec3e8ca869a6acb866",
+    "website-data.json": "2d6c794759760d210249d78eb5c2b45b3a2a4c5f385b2fc17cbc71196b7ef94a",
     "THIRD-PARTY-NOTICES.txt": "95f0f2f13e7780f16d4f1179dfab23199eeeed7da9489425a9dbe08e28b8c474",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   "cvSource": "cv-board",
-  "cvRevision": 200,
+  "cvRevision": 201,
   "cvSha256": "2682fd9f9fe941aab7c198b049633eafa928f4864e079000e3c0fd71dd9c7e85"
 }
