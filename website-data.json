@@ -1,7 +1,7 @@
 {
   "format": "cv-board-website",
   "schemaVersion": 1,
-  "sourceRevision": 127,
+  "sourceRevision": 137,
   "profile": {
     "fullName": "WENJUN BIAN",
     "websiteName": "Wenjun Bian",
@@ -223,6 +223,18 @@
       "title": "Conference Presentations",
       "entries": [
         {
+          "id": "d5a2e8c7-ba3e-4b0f-8abc-009664040495",
+          "title": "From Penalty to Premium: How Remote Work Reshapes the Gender Pay Gap",
+          "featured": false,
+          "authors": "Bian, W., Yuan, S., Li, J., & Li, M.",
+          "year": "2026",
+          "venue": "The 86th Annual Meeting of the Academy of Management (AOM)",
+          "links": [],
+          "relatedIds": [
+            "hist-20261004-pdw-jap"
+          ]
+        },
+        {
           "id": "ad8ad6b1-4204-43b5-a904-4fec7b6e2467",
           "title": "A Three-Level Meta-Analysis of Exploring the Relationship Between Nonwork Activities and Work Engagement",
           "featured": false,
@@ -233,12 +245,240 @@
           "relatedIds": []
         },
         {
+          "id": "conf-1",
+          "title": "Recharge to Reengage: A Meta-Analysis of Recovery Activities and Work Engagement",
+          "featured": false,
+          "authors": "Bian, W., Deng, Y., Ruan, J., & Liu, Z.",
+          "year": "2025",
+          "venue": "The 85th Annual Meeting of the Academy of Management (AOM)",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "024b9a68-3325-4f28-9e3d-643361eccb9d",
+          "title": "From Spark to Flame: Transformation of Personal Life Experiences Into Workplace Creativity",
+          "featured": false,
+          "authors": "Bian, W.",
+          "year": "2025",
+          "venue": "The 85th Annual Meeting of the Academy of Management (AOM)",
+          "links": [],
+          "relatedIds": [
+            "hist-20261004-pdw-amj"
+          ]
+        },
+        {
+          "id": "49a017fd-114d-4fe9-a69b-28cb89dea3f6",
+          "title": "My Spark Ignites Me! Investigating the Effects of Epiphanies on Employees’ Thriving at Work",
+          "featured": false,
+          "authors": "Bian, W.",
+          "year": "2025",
+          "venue": "The 85th Annual Meeting of the Academy of Management (AOM)",
+          "links": [
+            {
+              "label": "Link",
+              "url": "https://doi.org/10.5465/amproc.2025.21329poster"
+            }
+          ],
+          "relatedIds": []
+        },
+        {
+          "id": "dd089547-1f09-44a0-ba93-47e377ce278f",
+          "title": "Seekers' Humility Matters: Feedback Seeking as a Catalyst for Givers’ Creativity",
+          "featured": false,
+          "authors": "Zheng, Y., Feng, X., Bian, W., Ma, J. Y., & He, Y.",
+          "year": "2025",
+          "venue": "The 40th Annual Conference of the Society for Industrial and Organizational Psychology (SIOP)",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "hist-20261004-pdw-jap",
+          "title": "How Remote Work Reshapes Gender Pay Disparities",
+          "featured": false,
+          "authors": "Bian, W.",
+          "year": "2025",
+          "venue": "JAP Paper Development Workshop",
+          "links": [],
+          "relatedIds": [
+            "d5a2e8c7-ba3e-4b0f-8abc-009664040495"
+          ]
+        },
+        {
           "id": "conf-2",
           "title": "Positive Parenting Practices Shape Adolescent Leader Emergence",
           "featured": false,
           "authors": "Bian, W. & Liu, Z.",
           "year": "2024",
           "venue": "The 39th Annual Conference of the Society for Industrial and Organizational Psychology (SIOP)",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "hist-20261004-aaom",
+          "title": "Exploring the Impact of Robot-Human Leadership Collaboration on Team Identity and Collaborative Leadership Efficacy",
+          "featured": false,
+          "authors": "Huang, G., Bian, W., Deng, Y., Guo, Y., Li, M., & Liu, Z.",
+          "year": "2024",
+          "venue": "13th Asia Academy of Management Conference (AAOM)",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "hist-20261004-pdw-amj",
+          "title": "From Spark to Flame: Interpersonal Capitalization Climate Facilitating Transformation of Personal Life Experiences Into Workplace Creativity",
+          "featured": false,
+          "authors": "Bian, W.",
+          "year": "2024",
+          "venue": "AMJ Paper Development Workshop",
+          "links": [],
+          "relatedIds": [
+            "024b9a68-3325-4f28-9e3d-643361eccb9d"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "awards",
+      "title": "Awards & Honors",
+      "entries": [
+        {
+          "id": "73720325-8cd9-4de6-9460-82c3cb7a0c57",
+          "title": "Outstanding Undergraduate",
+          "featured": false,
+          "date": "2026",
+          "subtitle": "Zhejiang University",
+          "institutionShort": "ZJU",
+          "institutionUrl": "https://www.zju.edu.cn/english/",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "award-1",
+          "title": "OB Pre-Doctoral Scholarship for the 85th Annual Meeting of AOM",
+          "featured": false,
+          "date": "2025",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "award-2",
+          "title": "Graduate National Scholarship",
+          "featured": false,
+          "date": "2024",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "hist-20261004-zju-unverified",
+          "title": "Outstanding Graduate in Zhejiang University",
+          "featured": false,
+          "date": "2024",
+          "subtitle": "Zhejiang University",
+          "institutionShort": "ZJU",
+          "institutionUrl": "https://www.zju.edu.cn/english/",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "hist-20261004-outstanding-undergrad",
+          "title": "Outstanding Undergraduate",
+          "featured": false,
+          "date": "2023",
+          "subtitle": "Nanjing University of Chinese Medicine",
+          "institutionShort": "NJUCM",
+          "institutionUrl": "https://www.njucm.edu.cn/",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "hist-20261004-firstclass",
+          "title": "First-Class Scholarship",
+          "featured": false,
+          "date": "2020–2023",
+          "subtitle": "Nanjing University of Chinese Medicine",
+          "institutionShort": "NJUCM",
+          "institutionUrl": "https://www.njucm.edu.cn/",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "award-3",
+          "title": "Undergraduate National Scholarship",
+          "featured": false,
+          "date": "2022",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "award-4",
+          "title": "National-Level Innovation and Entrepreneurship Training Scholarship",
+          "featured": false,
+          "date": "2022",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "hist-20261004-oxford-scholarship",
+          "title": "First-Class Scholarship, Oxford Prospect Programme",
+          "featured": false,
+          "date": "2022",
+          "subtitle": "Oxford Prospect Programme",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "hist-20261004-student-leader",
+          "title": "Excellent Student Leader",
+          "featured": false,
+          "date": "2021",
+          "subtitle": "Nanjing University of Chinese Medicine",
+          "institutionShort": "NJUCM",
+          "institutionUrl": "https://www.njucm.edu.cn/",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "hist-20261004-challenge-cup",
+          "title": "Third Prize, 17Th Jiangsu Province Challenge Cup Competition",
+          "featured": false,
+          "date": "2021",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "hist-20261004-zhu",
+          "title": "Zhu Jingwen Scholarship",
+          "featured": false,
+          "date": "2020",
+          "subtitle": "Nanjing University of Chinese Medicine",
+          "institutionShort": "NJUCM",
+          "institutionUrl": "https://www.njucm.edu.cn/",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "hist-20261004-english-contest",
+          "title": "Third Prize, National College English Contest",
+          "featured": false,
+          "date": "2020",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "hist-20261004-jiangsu-volunteer",
+          "title": "Outstanding College Student Volunteer in Jiangsu Province",
+          "featured": false,
+          "subtitle": "Jiangsu Province",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "hist-20261004-topten-volunteer",
+          "title": "Top Ten Volunteers",
+          "featured": false,
+          "subtitle": "Nanjing University of Chinese Medicine",
+          "institutionShort": "NJUCM",
+          "institutionUrl": "https://www.njucm.edu.cn/",
           "links": [],
           "relatedIds": []
         }
