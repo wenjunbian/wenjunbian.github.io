@@ -1,0 +1,29 @@
+{
+  "jobId": "9742cf19658fa51f8bcfedd8",
+  "fingerprint": "1964a10b78be2345e0a3bd57fc72f2a117a1f17f3bddca530cdf582ec3b81f19",
+  "sourceRevision": 127,
+  "files": [
+    ".nojekyll",
+    "THIRD-PARTY-NOTICES.txt",
+    "assets/cv.pdf",
+    "assets/site.css",
+    "assets/site.js",
+    "conferences.html",
+    "index.html",
+    "ongoing-papers.html",
+    "publications.html",
+    "website-data.json"
+  ],
+  "hashes": {
+    "index.html": "db1f7042bff37ae218235a8b580027717333b003979af17350c2b72ce84bb446",
+    "publications.html": "1da191994404647e6c5054592c04cecf4d0509d2a0471fbe6ed01017c017f911",
+    "ongoing-papers.html": "72e59a7de8b565f116a6ba6342bad2624897ff28e8b55f051b2b54235a07695b",
+    "conferences.html": "67a9898aa13a45cd25f64c45eaa400a52f0ca1815e658397e3023b80e7a46529",
+    "assets/site.css": "eab3d1c40c105309ec1e2bde72dab483892458c2c243ef2632e5bc19795d9671",
+    "assets/site.js": "90b105436fde4a84d21316f3fc3b1f6f35d7f792d28294e8b8bc4068e33b88f2",
+    "assets/cv.pdf": "d66451791570b3ba97c0bb95e186fd0d899f24a427d7e75ccffb7f85f52995ee",
+    "website-data.json": "6c5e7a06e5f19456e2bfd88e3cf34fc6e88e79fca14ef122d42782d7dae92b1d",
+    "THIRD-PARTY-NOTICES.txt": "95f0f2f13e7780f16d4f1179dfab23199eeeed7da9489425a9dbe08e28b8c474",
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
