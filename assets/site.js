@@ -1,4 +1,4 @@
-/* Progressive navigation for the standalone file; no network or storage. */
+/* Progressive navigation for the standalone file. */
 (()=>{
  const pages=[...document.querySelectorAll('[data-site-page]')],single=document.body.dataset.siteMode==='single';
  function show(){
@@ -112,4 +112,35 @@
   const save=viewer.querySelector('[data-figure-save]');save.href=source.src;save.download=source.src.startsWith('data:image/jpeg')?'paper-figure.jpg':'paper-figure.png';
   viewer.showModal();document.body.classList.add('figure-lightbox-open');viewer.querySelector('.figure-lightbox-view').scrollTo(0,0);
  });
+})();
+
+/* Statistics run only on the published site, never in Board/file previews. */
+(()=>{
+ const root=document.querySelector('[data-visitor-stats]');if(!root)return;
+ const note=root.querySelector('[data-visitor-note]');
+ if(location.protocol!=='https:'||location.hostname!=='juneatob.github.io'){
+  root.querySelectorAll('.visitor-status').forEach(el=>el.textContent='Preview');
+  note.textContent='Local preview · visits are not counted.';return;
+ }
+ const counter=root.dataset.counterId,map=root.dataset.mapId;
+ if(/^[0-9]{1,20}$/.test(counter)){
+  const holder=root.querySelector('[data-visitor-counter]');
+  const link=document.createElement('a');link.href='https://www.hitwebcounter.com/word-counter';link.target='_blank';link.rel='noopener';link.title='Find Total Words';
+  const img=new Image();img.alt='Find Total Words';img.decoding='async';img.style.cssText='border:0;max-width:100%;height:auto;';
+  const timeout=setTimeout(()=>{holder.querySelector('.visitor-status')?.replaceChildren(document.createTextNode('Temporarily unavailable'));},12000);
+  img.onload=()=>{clearTimeout(timeout);holder.replaceChildren(link);};
+  img.onerror=()=>{clearTimeout(timeout);holder.textContent='Temporarily unavailable';};
+  link.append(img);img.src=`https://www.hitwebcounter.com/counter/counter.php?page=${counter}&style=0006&nbdigits=6&type=page`;
+  const credit=document.createElement('a');credit.href='https://www.hitwebcounter.com/';credit.target='_blank';credit.rel='noopener';credit.textContent='Visits';credit.className='visitor-credit';holder.after(credit);
+ }
+ if(/^[A-Za-z0-9_-]{20,100}$/.test(map)){
+  const holder=root.querySelector('[data-visitor-map]'),status=holder.querySelector('[data-map-status]');
+  const script=document.createElement('script');script.id='mapmyvisitors';script.async=true;
+  script.src=`https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=${map}`;
+  const observer=new MutationObserver(()=>{if(holder.querySelector('#mapmyvisitors-widget')){status.hidden=true;observer.disconnect();}});
+  observer.observe(holder,{childList:true,subtree:true});
+  script.onerror=()=>{status.hidden=false;status.textContent='Map unavailable. Please try again later.';observer.disconnect();};
+  setTimeout(()=>{if(!holder.querySelector('#mapmyvisitors-widget')){status.textContent='Map unavailable. Please try again later.';observer.disconnect();}},15000);
+  holder.append(script);
+ }
 })();

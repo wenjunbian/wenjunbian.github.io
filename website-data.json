@@ -1,7 +1,7 @@
 {
   "format": "cv-board-website",
   "schemaVersion": 1,
-  "sourceRevision": 201,
+  "sourceRevision": 202,
   "profile": {
     "fullName": "WENJUN BIAN",
     "websiteName": "Wenjun Bian",
@@ -446,5 +446,10 @@
         }
       ]
     }
-  ]
+  ],
+  "analytics": {
+    "enabled": true,
+    "counterId": "21522622",
+    "mapId": ""
+  }
 }
