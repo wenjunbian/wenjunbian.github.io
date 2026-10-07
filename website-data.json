@@ -447,10 +447,12 @@
       ]
     }
   ],
-  "analytics": {
-    "enabled": true,
+  "visitorStats": {
+    "showMap": true,
+    "showCounter": true,
+    "mapId": "rn2HPDWK4jiPXAIjYlvKy2atAbnsWI3tAV99_zPEaNI",
     "counterId": "21522622",
-    "mapId": "5mVQ2DKJAgKpBduEGVPouhYzG6Utl2SQx_JlQfQFcMo",
-    "mapType": "globe"
+    "mapType": "map",
+    "statsUrl": "https://mapmyvisitors.com/web/1c8pv"
   }
 }

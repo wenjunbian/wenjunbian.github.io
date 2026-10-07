@@ -47,14 +47,14 @@ main{min-height:calc(100vh - 140px)}.site-page{max-width:1180px;margin:0 auto;pa
 .pub-card.with-image{grid-template-columns:210px minmax(0,1fr);gap:24px}.pub-figure-cover{align-self:start}.paper-figure{margin:0}.figure-zoom{display:block;border:1px solid #e2e7ef;border-radius:8px;padding:12px;background:#fafbfd;cursor:zoom-in;text-align:center;color:#647591}.figure-zoom:hover{border-color:#9caecb;text-decoration:none;background:#f4f7fb}.figure-zoom .pub-image{display:block;width:100%;height:145px;max-height:none;object-fit:contain;border-radius:0;background:#fff}.figure-zoom>span{font-size:10px;display:block;margin-top:9px}.paper-figure figcaption{font-size:10px;line-height:1.65;color:#707987;margin-top:9px}.pub-section .paper-figure{margin-top:12px;max-width:450px}.figure-lightbox{border:1px solid #d9dfe9;border-radius:12px;width:min(1200px,94vw);max-width:94vw;max-height:92dvh;padding:0;color:#27303d;background:#fff;box-shadow:0 20px 80px #0004}.figure-lightbox::backdrop{background:#101827bd;backdrop-filter:blur(3px)}.figure-lightbox-bar{display:flex;align-items:center;gap:16px;padding:13px 20px;border-bottom:1px solid #e4e8ef;position:sticky;top:0;background:#fff;z-index:1}.figure-lightbox-bar b{font-size:13px;margin-right:auto}.figure-lightbox-bar button,.figure-lightbox-bar a{font-size:12px;padding:6px 12px;border:1px solid #d0d8e4;background:#fff;border-radius:5px;color:#475c7c}.figure-lightbox-image{display:block;width:100%;height:auto;max-height:68dvh;object-fit:contain;padding:24px}.figure-lightbox-caption{font-size:13px;line-height:1.7;padding:0 24px 24px;color:#56637a}.figure-lightbox.zoomed .figure-lightbox-image{width:auto;max-width:none;max-height:none;object-fit:initial}.figure-lightbox-view{overflow:auto;max-height:72dvh}.figure-lightbox-open{overflow:hidden}
 @media(max-width:760px){.pub-card.with-image{grid-template-columns:1fr}.pub-figure-cover{width:100%}.figure-zoom .pub-image{height:175px}.paper-figure figcaption{font-size:11px}.figure-lightbox-bar{padding:10px;gap:7px}.figure-lightbox-bar b{font-size:11px}.figure-lightbox-bar button,.figure-lightbox-bar a{padding:5px 8px;font-size:11px}.figure-lightbox-image{padding:12px}.figure-lightbox-caption{font-size:12px;padding:12px}}
 
-/* Visitor statistics: compact, centered, with the site's existing muted palette. */
-.visitor-stats{max-width:520px;margin:0 auto 28px;padding:22px 0 18px;border-top:1px solid var(--border);border-bottom:1px solid var(--border);text-align:left}
+/* Visitor statistics share the footer's restrained palette. */
+.site-footer{flex-direction:column}
+.visitor-stats{width:min(520px,100%);margin:0 auto 28px;padding:22px 0 18px;border-top:1px solid var(--border);border-bottom:1px solid var(--border);text-align:left}
 .visitor-heading{display:flex;justify-content:space-between;align-items:center;gap:18px;margin-bottom:16px;color:var(--secondary);font-size:10px;letter-spacing:1.7px;font-weight:600}
-.visitor-counter{display:flex;align-items:center;gap:9px;font-size:11px;letter-spacing:0;font-weight:400}.visitor-counter img{display:block;max-height:22px;max-width:120px}.visitor-counter .visitor-credit{font-size:9px}
+.visitor-counter{display:flex;align-items:center;gap:9px;font-size:11px;letter-spacing:0;font-weight:400}.visitor-counter img{display:block;max-height:22px;max-width:120px;height:auto}
 .visitor-map{width:100%;min-height:80px;overflow:hidden;border-radius:8px}.visitor-map #mapmyvisitors-widget{max-width:100%;margin:0 auto}.visitor-map img{max-width:100%}
+[data-map-type="globe"] .visitor-map{max-width:320px;margin:0 auto}
 .visitor-credit{display:inline-block;font-size:10px;margin-top:7px;color:var(--secondary)}.visitor-note{font-size:10px;color:var(--secondary);line-height:1.7;margin:12px 0 0}.visitor-status{font-size:11px;font-weight:400;letter-spacing:0;color:var(--secondary)}
-@media(max-width:540px){.visitor-heading{align-items:flex-start;flex-direction:column;gap:12px}.visitor-stats{width:100%}}
-
-.site-footer{flex-direction:column}.visitor-stats{width:min(520px,100%)}
-
-[data-map-type="globe"] .visitor-map{max-width:320px;margin:0 auto;overflow:hidden}
+[data-stats-state="preview"] .visitor-map{display:flex;align-items:center;justify-content:center;max-width:none;min-height:140px;border:1px dashed #d4dae4;padding:18px;text-align:center}
+[data-map-state="unavailable"] .mmvst_outer,[data-map-state="unavailable"] #mapmyvisitors-widget{display:none!important}
+@media(max-width:540px){.visitor-heading{align-items:flex-start;flex-direction:column;gap:12px}}

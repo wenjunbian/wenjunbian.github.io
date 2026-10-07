@@ -114,51 +114,53 @@
  });
 })();
 
-/* Statistics run only on the published site, never in Board/file previews. */
+/* Visitor services are enabled only on the published website. */
 (()=>{
  const root=document.querySelector('[data-visitor-stats]');if(!root)return;
- const note=root.querySelector('[data-visitor-note]');
- if(location.protocol!=='https:'||location.hostname!=='juneatob.github.io'){
-  root.querySelectorAll('.visitor-status').forEach(el=>el.textContent='Preview');
-  note.textContent='Local preview · visits are not counted.';return;
+ const counter=root.querySelector('[data-visitor-counter]');
+ const holder=root.querySelector('[data-visitor-map]'),status=root.querySelector('[data-map-status]');
+ if(location.protocol!=='https:'||location.hostname!=='juneatob.github.io'||document.body.dataset.siteMode!=='package'){
+  root.dataset.statsState='preview';
+  if(counter)counter.textContent='Preview';
+  if(status)status.textContent='Visitor map appears on the published website.';
+  root.querySelector('[data-visitor-note]').textContent='Local preview · visits are not counted.';
+  return;
  }
- const counter=root.dataset.counterId,map=root.dataset.mapId;
- if(/^[0-9]{1,20}$/.test(counter)){
-  const holder=root.querySelector('[data-visitor-counter]');
-  const link=document.createElement('a');link.href='https://www.hitwebcounter.com/word-counter';link.target='_blank';link.rel='noopener';link.title='Find Total Words';
-  const img=new Image();img.alt='Find Total Words';img.decoding='async';img.style.cssText='border:0;max-width:100%;height:auto;';
-  const timeout=setTimeout(()=>{holder.querySelector('.visitor-status')?.replaceChildren(document.createTextNode('Temporarily unavailable'));},12000);
-  img.onload=()=>{clearTimeout(timeout);holder.replaceChildren(link);};
-  img.onerror=()=>{clearTimeout(timeout);holder.textContent='Temporarily unavailable';};
-  link.append(img);img.src=`https://www.hitwebcounter.com/counter/counter.php?page=${counter}&style=0006&nbdigits=6&type=page`;
-  const credit=document.createElement('a');credit.href='https://www.hitwebcounter.com/';credit.target='_blank';credit.rel='noopener';credit.textContent='Visits';credit.className='visitor-credit';holder.after(credit);
+ if(counter&&/^[0-9]{1,20}$/.test(root.dataset.counterId)){
+  const image=new Image();image.alt='Website page views';image.decoding='async';
+  const link=document.createElement('a');link.href='https://www.hitwebcounter.com/';link.target='_blank';link.rel='noopener noreferrer';link.title='Page views by HitWebCounter';
+  const timeout=setTimeout(()=>{counter.textContent='Unavailable';},12000);
+  image.onload=()=>{clearTimeout(timeout);link.replaceChildren(image);counter.replaceChildren(link);};
+  image.onerror=()=>{clearTimeout(timeout);counter.textContent='Unavailable';};
+  image.src=`https://www.hitwebcounter.com/counter/counter.php?page=${root.dataset.counterId}&style=0006&nbdigits=6&type=page`;
  }
- if(/^[A-Za-z0-9_-]{20,100}$/.test(map)){
-  const holder=root.querySelector('[data-visitor-map]'),status=holder.querySelector('[data-map-status]');
-  const globe=root.dataset.mapType==='globe';
-  let dataUnavailable=false;
-  window.addEventListener('error',event=>{
-   const src=event.target?.src||'';
-   if(src.startsWith('https://mapmyvisitors.com/globe_call_home.js')){
-    dataUnavailable=true;status.hidden=false;status.textContent='Visitor data is temporarily unavailable from Map My Visitors.';
-   }
-  },true);
-  let pageLoaded=document.readyState==='complete',globeStarted=false;
-  if(!pageLoaded)window.addEventListener('load',()=>{pageLoaded=true;},{once:true});
-  const script=document.createElement('script');script.id=globe?'mmvst_globe':'mapmyvisitors';script.async=true;
-  script.src=globe?`https://mapmyvisitors.com/globe.js?d=${map}`:`https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=${map}`;
-  const loaded=()=>holder.querySelector(globe?'.mmvst_inner[style*="display: block"]':'#mapmyvisitors-widget');
-  const observer=new MutationObserver(()=>{
-   // The provider binds its initializer to window.load after loading jQuery.
-   // When injected after load, wake only that isolated jQuery instance once.
-   if(globe&&pageLoaded&&!globeStarted&&holder.querySelector('.mmvst_outer')&&typeof window.globe_jq==='function'){
-    globeStarted=true;setTimeout(()=>window.globe_jq(window).triggerHandler('load'),0);
-   }
-   if(loaded()){status.hidden=!dataUnavailable;observer.disconnect();}
-  });
-  observer.observe(holder,{childList:true,subtree:true,attributes:true,attributeFilter:['style']});
-  script.onerror=()=>{status.hidden=false;status.textContent='Map unavailable. Please try again later.';observer.disconnect();};
-  setTimeout(()=>{if(!loaded()&&!dataUnavailable){status.textContent='Map is taking longer to load. Please wait or try again later.';}},20000);
-  holder.append(script);
- }
+ if(!holder||!/^[A-Za-z0-9_-]{20,100}$/.test(root.dataset.mapId))return;
+ const globe=root.dataset.mapType==='globe';
+ const endpoint=globe?'globe_call_home.js':'widget_call_home.js';
+ let dataReady=false,forcedStart=false,timer;
+ root.dataset.mapState='loading';
+ const hasVisual=()=>{const el=holder.querySelector(globe?'.mmvst_inner':'#mapmyvisitors-widget');return el&&getComputedStyle(el).display!=='none';};
+ const isData=event=>{try{const u=new URL(event.target?.src||'',location.href);return u.hostname==='mapmyvisitors.com'&&u.pathname==='/'+endpoint;}catch{return false;}};
+ const failed=()=>{root.dataset.mapState='unavailable';status.hidden=false;status.textContent='Visitor map is temporarily unavailable.';clearTimeout(timer);observer.disconnect();};
+ const complete=()=>{
+  if(!dataReady||!hasVisual())return;
+  root.dataset.mapState='ready';status.hidden=true;clearTimeout(timer);observer.disconnect();
+  document.removeEventListener('load',onLoad,true);document.removeEventListener('error',onError,true);
+ };
+ const onLoad=event=>{if(isData(event)){dataReady=true;complete();}};
+ const onError=event=>{if(isData(event))failed();};
+ document.addEventListener('load',onLoad,true);document.addEventListener('error',onError,true);
+ const startLateGlobe=()=>{
+  if(globe&&!forcedStart&&!hasVisual()&&document.readyState==='complete'&&holder.querySelector('.mmvst_outer')&&typeof window.globe_jq==='function'){
+   forcedStart=true;setTimeout(()=>window.globe_jq(window).triggerHandler('load'),0);
+  }
+ };
+ const observer=new MutationObserver(()=>{startLateGlobe();complete();});
+ observer.observe(holder,{childList:true,subtree:true,attributes:true,attributeFilter:['style']});
+ window.addEventListener('load',startLateGlobe,{once:true});
+ const script=document.createElement('script');script.async=true;script.id=globe?'mmvst_globe':'mapmyvisitors';
+ script.src=globe?`https://mapmyvisitors.com/globe.js?d=${root.dataset.mapId}`:`https://mapmyvisitors.com/map.js?d=${root.dataset.mapId}&cl=ffffff&w=a`;
+ script.onerror=()=>{failed();observer.disconnect();};
+ timer=setTimeout(()=>{if(root.dataset.mapState!=='ready')failed();},20000);
+ holder.append(script);
 })();
