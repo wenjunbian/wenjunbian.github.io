@@ -56,3 +56,5 @@ main{min-height:calc(100vh - 140px)}.site-page{max-width:1180px;margin:0 auto;pa
 @media(max-width:540px){.visitor-heading{align-items:flex-start;flex-direction:column;gap:12px}.visitor-stats{width:100%}}
 
 .site-footer{flex-direction:column}.visitor-stats{width:min(520px,100%)}
+
+[data-map-type="globe"] .visitor-map{max-width:320px;margin:0 auto;overflow:hidden}

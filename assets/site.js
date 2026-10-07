@@ -135,12 +135,30 @@
  }
  if(/^[A-Za-z0-9_-]{20,100}$/.test(map)){
   const holder=root.querySelector('[data-visitor-map]'),status=holder.querySelector('[data-map-status]');
-  const script=document.createElement('script');script.id='mapmyvisitors';script.async=true;
-  script.src=`https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=${map}`;
-  const observer=new MutationObserver(()=>{if(holder.querySelector('#mapmyvisitors-widget')){status.hidden=true;observer.disconnect();}});
-  observer.observe(holder,{childList:true,subtree:true});
+  const globe=root.dataset.mapType==='globe';
+  let dataUnavailable=false;
+  window.addEventListener('error',event=>{
+   const src=event.target?.src||'';
+   if(src.startsWith('https://mapmyvisitors.com/globe_call_home.js')){
+    dataUnavailable=true;status.hidden=false;status.textContent='Visitor data is temporarily unavailable from Map My Visitors.';
+   }
+  },true);
+  let pageLoaded=document.readyState==='complete',globeStarted=false;
+  if(!pageLoaded)window.addEventListener('load',()=>{pageLoaded=true;},{once:true});
+  const script=document.createElement('script');script.id=globe?'mmvst_globe':'mapmyvisitors';script.async=true;
+  script.src=globe?`https://mapmyvisitors.com/globe.js?d=${map}`:`https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=${map}`;
+  const loaded=()=>holder.querySelector(globe?'.mmvst_inner[style*="display: block"]':'#mapmyvisitors-widget');
+  const observer=new MutationObserver(()=>{
+   // The provider binds its initializer to window.load after loading jQuery.
+   // When injected after load, wake only that isolated jQuery instance once.
+   if(globe&&pageLoaded&&!globeStarted&&holder.querySelector('.mmvst_outer')&&typeof window.globe_jq==='function'){
+    globeStarted=true;setTimeout(()=>window.globe_jq(window).triggerHandler('load'),0);
+   }
+   if(loaded()){status.hidden=!dataUnavailable;observer.disconnect();}
+  });
+  observer.observe(holder,{childList:true,subtree:true,attributes:true,attributeFilter:['style']});
   script.onerror=()=>{status.hidden=false;status.textContent='Map unavailable. Please try again later.';observer.disconnect();};
-  setTimeout(()=>{if(!holder.querySelector('#mapmyvisitors-widget')){status.textContent='Map unavailable. Please try again later.';observer.disconnect();}},15000);
+  setTimeout(()=>{if(!loaded()&&!dataUnavailable){status.textContent='Map is taking longer to load. Please wait or try again later.';}},20000);
   holder.append(script);
  }
 })();
