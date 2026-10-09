@@ -119,7 +119,7 @@
  const root=document.querySelector('[data-visitor-stats]');if(!root)return;
  const counter=root.querySelector('[data-visitor-counter]');
  const holder=root.querySelector('[data-visitor-map]'),status=root.querySelector('[data-map-status]');
- if(location.protocol!=='https:'||location.hostname!=='juneatob.github.io'||document.body.dataset.siteMode!=='package'){
+ if(location.protocol!=='https:'||location.origin!==document.body.dataset.siteOrigin||document.body.dataset.siteMode!=='package'){
   root.dataset.statsState='preview';
   if(counter)counter.textContent='Preview';
   if(status)status.textContent='Visitor map appears on the published website.';
