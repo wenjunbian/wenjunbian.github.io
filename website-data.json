@@ -1,7 +1,7 @@
 {
   "format": "cv-board-website",
   "schemaVersion": 1,
-  "sourceRevision": 203,
+  "sourceRevision": 212,
   "profile": {
     "fullName": "WENJUN BIAN",
     "websiteName": "Wenjun Bian",
@@ -154,6 +154,15 @@
       "id": "working",
       "title": "Working Papers",
       "entries": [
+        {
+          "id": "75012cfb-f884-4f64-a0d8-c3cbee59ad01",
+          "title": "Affective Recovery",
+          "featured": false,
+          "authors": "Wenjun Bian,  Olivia guan, Katrina Lin",
+          "status": "Idea Development",
+          "links": [],
+          "relatedIds": []
+        },
         {
           "id": "work-1",
           "title": "Not All Recovery Activities Are Created Equal: A Theoretical Synthesis and Meta-Analysis of Recovery Activities and Work Engagement",
