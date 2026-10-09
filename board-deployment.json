@@ -1,7 +1,7 @@
 {
-  "jobId": "b442d8fd3486a75a62baad32",
-  "fingerprint": "1baf875df19926c6f5f57deb7f18fe5ccd04e55fe20e19fc57313b2280096153",
-  "sourceRevision": 212,
+  "jobId": "2c4a2ba237d3d48b38e4fdcc",
+  "fingerprint": "be761c2043ed55de67b630334d52634eefd37abbfe71fc2418ba6cab82eccf8d",
+  "sourceRevision": 213,
   "files": [
     ".nojekyll",
     "THIRD-PARTY-NOTICES.txt",
@@ -16,19 +16,19 @@
     "website-data.json"
   ],
   "hashes": {
-    "index.html": "9bc95e4503924ec242c2681274f22db74b74e3dac88336e2588e93fdcba8bcc0",
+    "index.html": "3b6cd74ec4105e5b5b7c6eb0f3c31baea89913f88c7459d27babfb47a27cd616",
     "publications.html": "cb0185252e0f416dc33478e92335237a44663436dc1cdbadedf5c1e4d2ea626b",
-    "ongoing-papers.html": "8bc03556813edc352ad91464f098a1099707d29c7f79c2a32c29eba5eea96ed1",
-    "conferences.html": "50bda62052fa33d8a7e811ad7b68189532b452ebc51f3d17dae4ca9698de22d8",
-    "awards.html": "0dbec6ac7fa32826b62047a30e48d28363072b35e348f83771d92fbec70d9790",
+    "ongoing-papers.html": "f3158626d4b2b65c667b00681fbde4dcfaa91e56d5f553e79ee9d18fdaff7f26",
+    "conferences.html": "4bf1a5aafd427a648d49c8daa3869b77fbf8542eb5400d4034a766ecb64e66b4",
+    "awards.html": "0b0699774cd23b1a3cb0fc6c5a79a73f4d0a0dcf6f5579180bda81e42aaddbae",
     "assets/site.css": "bd2b2cb52acd31cf85250d03add0615e7d1a006b196ed3c7648e73da51d1e937",
     "assets/site.js": "07c5ca2a4a34f62235c6f7a2ff531f9ca1bc35b1d6e120c7866f080a2c73ee9d",
-    "assets/cv.pdf": "25eb0707fd5ef44d9cdd953e63ba29dcceea7e6bcc0ba495fb43f06dfe93893a",
-    "website-data.json": "0c8bf05c636e179389eaedf66fa4008de212ebc1dcbccf297b78c6ef31fb7df5",
+    "assets/cv.pdf": "29031738209f0a57d4da032d843bc31a0c09f8e3d1c99e81f69fc409331d78a1",
+    "website-data.json": "21873c04af30504a765532a9a4bb0d15ed02f5c06823f6dc2cd408fe91402cee",
     "THIRD-PARTY-NOTICES.txt": "95f0f2f13e7780f16d4f1179dfab23199eeeed7da9489425a9dbe08e28b8c474",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   "cvSource": "cv-board",
-  "cvRevision": 212,
-  "cvSha256": "25eb0707fd5ef44d9cdd953e63ba29dcceea7e6bcc0ba495fb43f06dfe93893a"
+  "cvRevision": 213,
+  "cvSha256": "29031738209f0a57d4da032d843bc31a0c09f8e3d1c99e81f69fc409331d78a1"
 }
