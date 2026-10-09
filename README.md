@@ -1,6 +1,6 @@
 # Wenjun Bian
 
-Personal academic website: https://juneatob.github.io/
+Personal academic website: https://wenjunbian.github.io/
 
 Static HTML, CSS, and JavaScript. Published with GitHub Pages.
 
