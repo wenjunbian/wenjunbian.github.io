@@ -1,7 +1,7 @@
 {
   "format": "cv-board-website",
   "schemaVersion": 1,
-  "sourceRevision": 213,
+  "sourceRevision": 217,
   "profile": {
     "fullName": "WENJUN BIAN",
     "websiteName": "Wenjun Bian",
@@ -158,7 +158,7 @@
           "id": "75012cfb-f884-4f64-a0d8-c3cbee59ad01",
           "title": "Affective Recovery",
           "featured": false,
-          "authors": "Bian, W., guan, O., & Lin, K.",
+          "authors": "Bian, W., Guan, O., & Lin, K.",
           "status": "Idea Development",
           "links": [],
           "relatedIds": []
@@ -169,8 +169,7 @@
           "featured": false,
           "authors": "Bian, W., Cheng, B., Zhu, Z., Zhu, X., & Liu, Z.",
           "year": "2026",
-          "status": "Under Review",
-          "reviewVenue": "Journal of Applied Psychology",
+          "status": "Preparing for Submission",
           "links": [],
           "relatedIds": []
         },
