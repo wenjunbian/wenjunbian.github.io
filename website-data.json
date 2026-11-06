@@ -1,7 +1,7 @@
 {
   "format": "cv-board-website",
   "schemaVersion": 1,
-  "sourceRevision": 242,
+  "sourceRevision": 246,
   "profile": {
     "fullName": "WENJUN BIAN",
     "websiteName": "Wenjun Bian",
@@ -464,11 +464,48 @@
           "relatedIds": []
         },
         {
+          "id": "hist-20261004-challenge-cup",
+          "title": "Third Prize, 17Th Jiangsu Province Challenge Cup Competition",
+          "featured": false,
+          "date": "2021",
+          "links": [],
+          "relatedIds": []
+        },
+        {
           "id": "hist-20261004-jiangsu-volunteer",
           "title": "Outstanding College Student Volunteer in Jiangsu Province",
           "featured": false,
           "date": "2021",
           "subtitle": "Jiangsu Province",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "hist-20261004-zhu",
+          "title": "Zhu Jingwen Scholarship",
+          "featured": false,
+          "date": "2020",
+          "subtitle": "Nanjing University of Chinese Medicine",
+          "institutionShort": "NJUCM",
+          "institutionUrl": "https://www.njucm.edu.cn/",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "hist-20261004-english-contest",
+          "title": "Third Prize, National College English Contest",
+          "featured": false,
+          "date": "2020",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "hist-20261004-topten-volunteer",
+          "title": "Top Ten Volunteers",
+          "featured": false,
+          "subtitle": "Nanjing University of Chinese Medicine",
+          "institutionShort": "NJUCM",
+          "institutionUrl": "https://www.njucm.edu.cn/",
           "links": [],
           "relatedIds": []
         }
