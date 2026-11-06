@@ -1,7 +1,7 @@
 {
-  "jobId": "155946a678f901c4ade81d5a",
-  "fingerprint": "25793387b585a4059cb6258d8d24dd6071ca0125ff78074817f6a735cef8c0a3",
-  "sourceRevision": 220,
+  "jobId": "e24da79d7921cfa19669c94a",
+  "fingerprint": "3b8e084fa1e784d76d2f636ff2f612f7db224fc843e11cd1dd5f2503fe60b3d9",
+  "sourceRevision": 231,
   "repository": "https://github.com/wenjunbian/wenjunbian.github.io",
   "url": "https://wenjunbian.github.io/",
   "files": [
@@ -18,7 +18,7 @@
     "website-data.json"
   ],
   "hashes": {
-    "index.html": "7b33ba23c8756c1a24bb28658152e1ddcd32dff1467fc070e876b5030134dba4",
+    "index.html": "035ca8f0be79626be8077bb960a4b85a4877764d21f750ad120208c3d751a1fe",
     "publications.html": "70ceaa2e1de65d243d2f53233517e1535bf615ad61999bf1a91047dc8710f143",
     "ongoing-papers.html": "bec4d05cec60183283effc2bcea9146bed013e6b72a583247370257f409cbe68",
     "conferences.html": "5fbedef7cc99913032c351a6dc7ed06e4e12227207093d089cb777c09844797d",
@@ -26,11 +26,11 @@
     "assets/site.css": "bd2b2cb52acd31cf85250d03add0615e7d1a006b196ed3c7648e73da51d1e937",
     "assets/site.js": "f63314c5613cf723e947205d437a02f0333d65829968d0a84ad4e6c9a4594e2a",
     "assets/cv.pdf": "ab1ae9ad59fd6b50df2f72e5f33dd277e99c80c7c17ad3e1dc5f6aa59820b411",
-    "website-data.json": "8a2540e6805cee5ddf75d5dd73b0e5d97cd0b6f06e17d3459b55d84ef9e5d1b9",
+    "website-data.json": "061929347e86963a9c3802c28210fd82a035b6b4b577d50a2993cb0947a6feca",
     "THIRD-PARTY-NOTICES.txt": "95f0f2f13e7780f16d4f1179dfab23199eeeed7da9489425a9dbe08e28b8c474",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   "cvSource": "cv-board",
-  "cvRevision": 220,
+  "cvRevision": 231,
   "cvSha256": "ab1ae9ad59fd6b50df2f72e5f33dd277e99c80c7c17ad3e1dc5f6aa59820b411"
 }
