@@ -1,7 +1,7 @@
 {
   "format": "cv-board-website",
   "schemaVersion": 1,
-  "sourceRevision": 246,
+  "sourceRevision": 247,
   "profile": {
     "fullName": "WENJUN BIAN",
     "websiteName": "Wenjun Bian",
@@ -505,6 +505,7 @@
           "featured": false,
           "subtitle": "Nanjing University of Chinese Medicine",
           "institutionShort": "NJUCM",
+          "date": "2022",
           "institutionUrl": "https://www.njucm.edu.cn/",
           "links": [],
           "relatedIds": []
