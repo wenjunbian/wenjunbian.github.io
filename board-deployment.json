@@ -1,7 +1,7 @@
 {
-  "jobId": "826b3ce8e3d8a7e6d138c8d6",
-  "fingerprint": "d28543276de89e3c875b9471efa00e7c996d4e2250318c391f8a73b9ffa9dcd6",
-  "sourceRevision": 247,
+  "jobId": "d288804fed1a89c23cd2285e",
+  "fingerprint": "315436c507ee9d8032c819167af5c7c06698d71ad68cfc7e7dd781395c963f31",
+  "sourceRevision": 281,
   "repository": "https://github.com/wenjunbian/wenjunbian.github.io",
   "url": "https://wenjunbian.github.io/",
   "files": [
@@ -15,22 +15,24 @@
     "index.html",
     "ongoing-papers.html",
     "publications.html",
+    "research-experience.html",
     "website-data.json"
   ],
   "hashes": {
-    "index.html": "b6bd36dd84b26137331c41ac2bf75f917568523112a2077208f51584c893e117",
-    "publications.html": "d6b0c82564257e098cbec3f0cd519353be6f51a2d4f8d141a3d7ef59f6b23991",
-    "ongoing-papers.html": "5ad21ae7079257c5aa78f73dc4a17ab8356db41135e84fc0929853e5c3eb7242",
-    "conferences.html": "686131beed55ca159548f06720075c35525609be5218ea12d4d168a15f2a069b",
-    "awards.html": "0be4fb5680a93048db35198cfcc3814b77575ada55e5f528e8e430692f9845f2",
+    "index.html": "1eea6c8de557bcb9de51706850d9588ac2f79eadbc701c2ac7eea3d2994c049b",
+    "publications.html": "7cc7be359f5cefb8f7a11c7282b46bf9497d419c10667df76f81621c0d3acee9",
+    "ongoing-papers.html": "886dfc63b26354ceeec204581e5918f4a60c0d0de00bf1386d58c702664c998c",
+    "conferences.html": "d0b577601d084839162bef94b16e066f9ec843e977aacb47688d37dc2c9e81cc",
+    "awards.html": "b7a3200d3089aee3af157bb94c1f163ae524a68ae00352c3cfa639c604bb0c9d",
+    "research-experience.html": "00497178e2f71b2fce5a248609299fb8cfa964ece8159743729b3ea2239436e8",
     "assets/site.css": "bd2b2cb52acd31cf85250d03add0615e7d1a006b196ed3c7648e73da51d1e937",
     "assets/site.js": "f63314c5613cf723e947205d437a02f0333d65829968d0a84ad4e6c9a4594e2a",
-    "assets/cv.pdf": "0c4fc5efa2a84ec578b0d1e854f749ec57e4a3639c6333f6e7ca37bc2a214ffa",
-    "website-data.json": "3959c30bcad8d7a5ef7b43d7637f9f3eea408a805060965ff1860ea83caf0318",
+    "assets/cv.pdf": "ef774ccfe119d0671df24cc416d58866bab56d3a31745e3ad8e48c560526ef1e",
+    "website-data.json": "6f5dde4fe61a250ac96200c2977b8fcd61764b8b7d313dbd9dc28a7cecad584f",
     "THIRD-PARTY-NOTICES.txt": "95f0f2f13e7780f16d4f1179dfab23199eeeed7da9489425a9dbe08e28b8c474",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   "cvSource": "cv-board",
-  "cvRevision": 247,
-  "cvSha256": "0c4fc5efa2a84ec578b0d1e854f749ec57e4a3639c6333f6e7ca37bc2a214ffa"
+  "cvRevision": 281,
+  "cvSha256": "ef774ccfe119d0671df24cc416d58866bab56d3a31745e3ad8e48c560526ef1e"
 }
