@@ -1,7 +1,7 @@
 {
   "format": "cv-board-website",
   "schemaVersion": 1,
-  "sourceRevision": 236,
+  "sourceRevision": 242,
   "profile": {
     "fullName": "WENJUN BIAN",
     "websiteName": "Wenjun Bian",
@@ -493,16 +493,22 @@
           "date": "2024",
           "links": [],
           "relatedIds": []
+        },
+        {
+          "id": "f7f7e01e-47ef-413b-97da-acef8a78d7ea",
+          "title": "SIOP",
+          "featured": false,
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "ff1c808d-8453-49e6-9abc-b99f154137c3",
+          "title": "IACMR",
+          "featured": false,
+          "links": [],
+          "relatedIds": []
         }
       ]
     }
-  ],
-  "visitorStats": {
-    "showMap": true,
-    "showCounter": true,
-    "mapId": "rn2HPDWK4jiPXAIjYlvKy2atAbnsWI3tAV99_zPEaNI",
-    "counterId": "21522622",
-    "mapType": "map",
-    "statsUrl": "https://mapmyvisitors.com/web/1c8pv"
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
-  "jobId": "8a3f3f083d9846296d840c8f",
-  "fingerprint": "bf3e13d0d2f4e2d0faf6a95120b8fa054edce7f0541c141ad45229fa61b3bedd",
-  "sourceRevision": 236,
+  "jobId": "1804b2111664b035c73981ad",
+  "fingerprint": "e908f8c775aea83bbc597dac335a2edebeb988463b86b759706ef7cdfe1add2b",
+  "sourceRevision": 242,
   "repository": "https://github.com/wenjunbian/wenjunbian.github.io",
   "url": "https://wenjunbian.github.io/",
   "files": [
@@ -18,19 +18,19 @@
     "website-data.json"
   ],
   "hashes": {
-    "index.html": "c72f588b9fc3759dbd6d5f7f1d35d2204df03c3ab70eb1c0b3da025202efde95",
-    "publications.html": "70ceaa2e1de65d243d2f53233517e1535bf615ad61999bf1a91047dc8710f143",
-    "ongoing-papers.html": "bec4d05cec60183283effc2bcea9146bed013e6b72a583247370257f409cbe68",
-    "conferences.html": "5fbedef7cc99913032c351a6dc7ed06e4e12227207093d089cb777c09844797d",
-    "awards.html": "34c150dabe45f57edddfe00457d208393f27e1651e13d172175b13d5a6c21696",
+    "index.html": "b6bd36dd84b26137331c41ac2bf75f917568523112a2077208f51584c893e117",
+    "publications.html": "d6b0c82564257e098cbec3f0cd519353be6f51a2d4f8d141a3d7ef59f6b23991",
+    "ongoing-papers.html": "5ad21ae7079257c5aa78f73dc4a17ab8356db41135e84fc0929853e5c3eb7242",
+    "conferences.html": "686131beed55ca159548f06720075c35525609be5218ea12d4d168a15f2a069b",
+    "awards.html": "639718ed50c3f0fbfd8d2eadfe007666ef72fc07cedcd00ee9319558eb4156ee",
     "assets/site.css": "bd2b2cb52acd31cf85250d03add0615e7d1a006b196ed3c7648e73da51d1e937",
     "assets/site.js": "f63314c5613cf723e947205d437a02f0333d65829968d0a84ad4e6c9a4594e2a",
-    "assets/cv.pdf": "8faa1f40da664e634db7cc60211525c7dbb2002d94c49de40db7f6218e37c18d",
-    "website-data.json": "a7f0a1b6c37e06003f21dbe0def8cd59dcd460b42a61ae7dd2aa35b0a7bd7909",
+    "assets/cv.pdf": "0c4fc5efa2a84ec578b0d1e854f749ec57e4a3639c6333f6e7ca37bc2a214ffa",
+    "website-data.json": "d0d1ade87b5b282202851c9d503d7a7cd48d8e9186074fbaf81103c79d2f7f59",
     "THIRD-PARTY-NOTICES.txt": "95f0f2f13e7780f16d4f1179dfab23199eeeed7da9489425a9dbe08e28b8c474",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   "cvSource": "cv-board",
-  "cvRevision": 236,
-  "cvSha256": "8faa1f40da664e634db7cc60211525c7dbb2002d94c49de40db7f6218e37c18d"
+  "cvRevision": 242,
+  "cvSha256": "0c4fc5efa2a84ec578b0d1e854f749ec57e4a3639c6333f6e7ca37bc2a214ffa"
 }
