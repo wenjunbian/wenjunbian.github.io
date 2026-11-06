@@ -1,7 +1,7 @@
 {
   "format": "cv-board-website",
   "schemaVersion": 1,
-  "sourceRevision": 231,
+  "sourceRevision": 236,
   "profile": {
     "fullName": "WENJUN BIAN",
     "websiteName": "Wenjun Bian",
@@ -20,6 +20,47 @@
     "websiteLabel": "My Academic Column"
   },
   "sections": [
+    {
+      "id": "education",
+      "title": "Education",
+      "entries": [
+        {
+          "id": "edu-1",
+          "title": "The Hong Kong Polytechnic University",
+          "featured": false,
+          "date": "2026–Present",
+          "subtitle": "PhD in Management (Organizational Behavior)",
+          "institutionShort": "PolyU",
+          "institutionUrl": "https://www.polyu.edu.hk/",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "edu-2",
+          "title": "Zhejiang University",
+          "featured": false,
+          "date": "2023–2026",
+          "subtitle": "MSc in Psychology · Industrial/Organizational Psychology",
+          "institutionShort": "ZJU",
+          "institutionUrl": "https://www.zju.edu.cn/english/",
+          "summary": "GPA: 4.0/4.0.",
+          "links": [],
+          "relatedIds": []
+        },
+        {
+          "id": "edu-3",
+          "title": "Nanjing University of Chinese Medicine",
+          "featured": false,
+          "date": "2019–2023",
+          "subtitle": "B.S. in Psychology",
+          "institutionShort": "NJUCM",
+          "institutionUrl": "https://www.njucm.edu.cn/",
+          "summary": "GPA: 3.97/4.0; ranked 1st among 90 students.",
+          "links": [],
+          "relatedIds": []
+        }
+      ]
+    },
     {
       "id": "publications",
       "title": "Selected Publications",
