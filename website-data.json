@@ -1,7 +1,7 @@
 {
   "format": "cv-board-website",
   "schemaVersion": 1,
-  "sourceRevision": 281,
+  "sourceRevision": 284,
   "profile": {
     "fullName": "WENJUN BIAN",
     "websiteName": "Wenjun Bian",
@@ -301,13 +301,24 @@
           "relatedIds": []
         },
         {
+          "id": "a396e28f-5e55-4d3e-97a1-1d42dbffb0a1",
+          "title": "Raised in the Storm: Affective Imprinting From Organizational Restructuring During Onboarding and Its Consequences for Employee Adaptation",
+          "featured": false,
+          "authors": "Guan, O., Fang, M., Bian, W., Zhang, M., & Liu, H.",
+          "year": "2026",
+          "status": "Preparing for Submission",
+          "targetJournal": "Journal of Applied Psychology",
+          "links": [],
+          "relatedIds": []
+        },
+        {
           "id": "3bd37cc8-c3b5-41ad-b6f8-72c365cecdeb",
           "title": "Not My Job, but My Future? Illegitimate Tasks, Organizational Politics, and Employee Voice",
           "featured": false,
           "authors": "Liu, C. & Bian, W.*",
           "year": "2026",
-          "status": "Finalizing Manuscript",
-          "targetJournal": "Journal of Managerial Psychology",
+          "status": "Under Review",
+          "reviewVenue": "Journal of Managerial Psychology",
           "links": [],
           "relatedIds": []
         },
