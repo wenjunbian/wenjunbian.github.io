@@ -1,7 +1,7 @@
 {
-  "jobId": "1d47a911731a34b306016eba",
-  "fingerprint": "a0a638736f70830f1f3fd06d88cfa1ebac0227f30932196bc4843c50022e7cfe",
-  "sourceRevision": 284,
+  "jobId": "64fccc9dea2833ded1fa9d6e",
+  "fingerprint": "d403dfa8d8402178decaf006641147113d51864b88c9083112cd1e07ae6dc6f7",
+  "sourceRevision": 289,
   "repository": "https://github.com/wenjunbian/wenjunbian.github.io",
   "url": "https://wenjunbian.github.io/",
   "files": [
@@ -19,20 +19,20 @@
     "website-data.json"
   ],
   "hashes": {
-    "index.html": "722a909835276ceaae7d6e12755cd94187af4b2808067d61e817cc19915fb602",
+    "index.html": "c5acaaa1de4da092ca94be17a05898d11b32025496bb16ed6311e8f985a12498",
     "publications.html": "7cc7be359f5cefb8f7a11c7282b46bf9497d419c10667df76f81621c0d3acee9",
-    "ongoing-papers.html": "565c6267baea793c6de1e7be0c51a6fb0b45c1e0107be0462ccd54cac003f0a0",
+    "ongoing-papers.html": "0ffb437915da95c6566a7e36d8d0fa7423624bdbef061a62ea8ec9d7c2b3c591",
     "conferences.html": "d0b577601d084839162bef94b16e066f9ec843e977aacb47688d37dc2c9e81cc",
     "awards.html": "b7a3200d3089aee3af157bb94c1f163ae524a68ae00352c3cfa639c604bb0c9d",
     "research-experience.html": "00497178e2f71b2fce5a248609299fb8cfa964ece8159743729b3ea2239436e8",
     "assets/site.css": "bd2b2cb52acd31cf85250d03add0615e7d1a006b196ed3c7648e73da51d1e937",
     "assets/site.js": "f63314c5613cf723e947205d437a02f0333d65829968d0a84ad4e6c9a4594e2a",
-    "assets/cv.pdf": "533c5721096aa9d8bed92ad34d9372a11fb4ecd2f72887d1e3fac14150da6d42",
-    "website-data.json": "d45132848bca875b0351cf1d688f3f478bcc8f8b93a4e24f783c0a05c60ed585",
+    "assets/cv.pdf": "f5337bd65f1765dcedd3a8ec101a5e6a7ea3c11a74afc2045ece1dae218ad98b",
+    "website-data.json": "014c208d44fb79cb030b8dc4be4615e8fbd54363f4c615315ef6cf964d8b9c0d",
     "THIRD-PARTY-NOTICES.txt": "95f0f2f13e7780f16d4f1179dfab23199eeeed7da9489425a9dbe08e28b8c474",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   "cvSource": "cv-board",
-  "cvRevision": 284,
-  "cvSha256": "533c5721096aa9d8bed92ad34d9372a11fb4ecd2f72887d1e3fac14150da6d42"
+  "cvRevision": 289,
+  "cvSha256": "f5337bd65f1765dcedd3a8ec101a5e6a7ea3c11a74afc2045ece1dae218ad98b"
 }

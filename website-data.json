@@ -1,7 +1,7 @@
 {
   "format": "cv-board-website",
   "schemaVersion": 1,
-  "sourceRevision": 284,
+  "sourceRevision": 289,
   "profile": {
     "fullName": "WENJUN BIAN",
     "websiteName": "Wenjun Bian",
@@ -285,7 +285,8 @@
           "featured": false,
           "authors": "Bian, W., Cheng, B., Zhu, Z., Zhu, X., & Liu, Z.",
           "year": "2026",
-          "status": "Preparing for Submission",
+          "status": "Under Review",
+          "reviewVenue": "Journal of Applied Psychology",
           "links": [],
           "relatedIds": []
         },
